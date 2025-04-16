@@ -157,6 +157,18 @@
 
             <form action = "https://httpbin.org/post" method = "post">
 
+                <label for = "name"> Name: </label>
+                <input type = "text" id = "name" name = "name">
+
+                <br>
+                <br>
+
+                <label for = "bday"> Birthday: </label>
+                <input type = "date" id = "bday" name = "birthday" value = "2025-04-15" min = "1940-01-01" max = "2025-04-15">
+
+                <br>
+                <br>
+
                 <fieldset>
                     <legend> Choose your Starter Pokemon</legend>
                     <input type = "radio" id = "charmander" name = "pokemon" value = "C">
@@ -213,6 +225,16 @@
                     <option value = "Seafood"> </option>
                     <option value = "Steak"> </option>
                 </datalist>
+
+                <br>
+                <br>
+
+                <label for = "breakfast"> Ate Breakfast </label>
+                <input type = "checkbox" id = "breakfast" name = "breakfast" value = "Breakfast">
+                <label for = "lunch"> Ate Lunch </label>
+                <input type = "checkbox" id = "lunch" name = "lunch" value = "Lunch">
+                <label for = "dinner"> Ate Dinner </label>
+                <input type = "checkbox" id = "dinner" name = "dinner" value = "Dinner">
 
                 <br>
                 <br>
