@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# CSE 110 Lab 3
 
-[Github Pages' Link](https://svetlanabobiles.github.io/cse110-lab2/)
+[Github Pages' Link](https://svetlanabobiles.github.io/sp25-cse110-lab3/)
