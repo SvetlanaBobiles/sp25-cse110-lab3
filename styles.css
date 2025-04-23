@@ -58,7 +58,6 @@ body{
     text-align: center;
 }
 
-/* Container styling */
 #etc {
     background-color: color-mix(in srgb, cornflowerblue 60%, white 40%);
     padding: 20px;
@@ -68,7 +67,6 @@ body{
     max-width: 800px;
 }
 
-/* Style each <details> box */
 #etc details {
     margin-bottom: 15px;
     padding: 15px;
