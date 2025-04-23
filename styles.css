@@ -18,6 +18,7 @@ body{
     margin-bottom:1.25rem;
 }
 
+/*navigation section*/
 .nav-container{
     display: flex;
     justify-content: center;
@@ -41,6 +42,7 @@ body{
 
 }
 
+/* Agenda/new/old business */
 .business-container{
     display: flex;
     justify-content:space-around;
@@ -58,6 +60,7 @@ body{
     text-align: center;
 }
 
+/*Comments/quesitons/concerns*/
 #etc {
     background-color: color-mix(in srgb, cornflowerblue 60%, white 40%);
     padding: 20px;
@@ -82,3 +85,40 @@ body{
     color: black;
 }
 
+/*Media*/
+
+.visuals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #85aded;
+    border-radius: 12px;
+  }
+  
+.visuals section {
+    background-color: #c1d6f7;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 320px;
+    flex-grow: 2;
+  }
+  
+.visuals h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+.visuals img,
+.visuals video,
+.visuals audio {
+    max-width: 100%;
+    border-radius: 8px;
+}
+  
+.visuals img {
+    object-fit: cover;
+}
