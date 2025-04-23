@@ -63,7 +63,7 @@ body{
 /*Comments/quesitons/concerns*/
 #etc {
     background-color: color-mix(in srgb, cornflowerblue 60%, white 40%);
-    padding: 20px;
+    padding: 20px 40px 20px 40px;
     border-style:dashed;
     border-radius: 12px;
     margin: 30px auto;
@@ -72,7 +72,10 @@ body{
 
 #etc details {
     margin-bottom: 15px;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     border: 1px solid color(srgb 0 0 0.55);
     border-radius: 8px;
     background-color: #c1d6f7;
@@ -106,12 +109,6 @@ body{
     flex-grow: 2;
   }
   
-.visuals h2 {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    color: black;
-  }
-  
 .visuals img,
 .visuals video,
 .visuals audio {
@@ -119,6 +116,30 @@ body{
     border-radius: 8px;
 }
   
-.visuals img {
-    object-fit: cover;
+
+/*Device Compatibility*/
+@media (max-width: 600px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .business-box {
+        width: 90%;
+    }
 }
+
+/*Other selectors I didn't use above*/
+
+ header > h2 {
+    color: darkblue;
+}
+
+* {
+    color: black;
+}
+
+section p:hover {
+    background-color: white;
+}
+
