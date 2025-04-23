@@ -6,37 +6,30 @@
     <title>Mobile Game Brainstorm Meeting</title>
 
     <link rel = "icon" type = "image/x-icon" href = "images/favicon.ico">
+    <link rel = "stylesheet" href = "styles.css">
 </head>
 
 <body>
 
     <header>
-        <h1 id = "topic">Mobile Game App Brainstorm Meeting #1</h1>
-        <h2>Date: 4/15/25</h2>
-
-        
+        <h1 class = "intro">Mobile Game App Brainstorm Meeting #1</h1>
+        <h2 class = "intro">Date: 4/15/25</h2>
 
         <br>
 
-        <nav>
-            <h3>Navigation:</h3>
-            <a href = "#attendance"> Attendance</a>
+        <nav class = "nav-container">
+            <a class = "nav-box" href = "#attendance"> Attendance</a>
             <br>
-            <a href = "#agenda"> Agenda </a>
+            <a class = "nav-box" href = "#agenda"> Agenda </a>
             <br>
-            <a href = "#unfinished"> Unfinished Business from Last Meeting </a>
+            <a class = "nav-box" href = "#unfinished"> Unfinished Business</a>
             <br>
-            <a href = "#new-business"> New Business </a>
+            <a class = "nav-box" href = "#new-business"> New Business </a>
             <br>
-            <a href = "#etc"> Comments/Questions/Concerns </a>
+            <a class = "nav-box" href = "#etc"> Comments </a>
             <br>            
-            <a href = "#diagrams"> Pictures/Diagrams </a>
-            <br>
-            <a href = "#audio"> Audio </a>
-            <br>
-            <a href = "#video"> Video </a>
-            <br>
-            <a href = "#ex-form"> Form </a>
+            <a class = "nav-box" href = "#media"> Media </a>
+            
         </nav>
 
         <hr>
@@ -129,124 +122,24 @@
 
         </section>
 
-        <section id = "diagrams">
+        <section id = "media">
             <h2> Pictures/Diagrams: </h2>
             <img src = "images/hayday.png" alt = "img of the mobile game hayday" width = "300" height = "200">
-        </section>
+        
 
-        <section id = "Audio">
+        
             <h2> Audio</h2>
 
             <audio controls>
                 <source src = "media/fakemeetingaudio.mp3" type = "audio/mpeg">
             </audio>
-        </section>
+        
 
-        <section id = "Video">
             <h2> Video</h2>
 
             <video controls width = "200" height = "400">
                 <source src = "media/IMG_3357.mp4" type = "video/mp4">
             </video>
-        </section>
-
-        <hr>
-
-        <section id = "ex-form">
-            <h2> Form</h2>
-
-            <form action = "https://httpbin.org/post" method = "post">
-
-                <label for = "name"> Name: </label>
-                <input type = "text" id = "name" name = "name">
-
-                <br>
-                <br>
-
-                <label for = "bday"> Birthday: </label>
-                <input type = "date" id = "bday" name = "birthday" value = "2025-04-15" min = "1940-01-01" max = "2025-04-15">
-
-                <br>
-                <br>
-
-                <fieldset>
-                    <legend> Choose your Starter Pokemon</legend>
-                    <input type = "radio" id = "charmander" name = "pokemon" value = "C">
-                    <label for = "charmander"> Charmander </label>
-
-                    <br>
-
-                    <input type = "radio" id = "squirtle" name = "pokemon" value = "S">
-                    <label for = "squirtle"> Squirtle </label>
-
-                    <br>
-
-                    <input type = "radio" id = "bulbasaur" name = "pokemon" value = "B">
-                    <label for = "bulbasaur"> Bulbasaur </label>
-
-                    <br>
-
-                    <input type = "radio" id = "pikachu" name = "pokemon" value = "P">
-                    <label for = "pikachu"> Pikachu (technically not starter but I'm adding for vibes) </label>
-
-                </fieldset>
-
-                <br>
-                
-                <label for = "fav-drink"> Choose a drink: </label>
-
-                <select name = "drinks" id = "fav-drink">
-                    <option value = "options"> Options</option>
-                    <option value = "coke"> Coke </option>
-                    <option value = "sprite"> Sprite </option>
-                    <option value = "fanta"> Fanta </option>
-                    <option value = "drpepper"> Dr.Pepper </option>
-                    <option value = "lemonade"> Lemonade </option>
-                    <option value = "juice"> Juice </option>
-                    <option value = "boba"> Boba </option>
-                    <option value = "milkshake"> Milkshake </option>
-                    <option value = "smoothie"> Smoothie </option>
-                    <option value = "water"> Water (wow very healthy of u)</option>
-                </select>
-
-                <br>
-                <br>
-
-                <label for = "fav-food"> Favorite food? </label>
-                <input list = "fav-food-options" id = "fav-food" name = "fav-food">
-
-                <datalist id = "fav-food-options">
-                    <option value = "Pizza"> </option>
-                    <option value = "Burger"> </option>
-                    <option value = "Sushi"> </option>
-                    <option value = "Fries"> </option>
-                    <option value = "BBQ"> </option>
-                    <option value = "Pasta"> </option>
-                    <option value = "Seafood"> </option>
-                    <option value = "Steak"> </option>
-                </datalist>
-
-                <br>
-                <br>
-
-                <label for = "breakfast"> Ate Breakfast </label>
-                <input type = "checkbox" id = "breakfast" name = "breakfast" value = "Breakfast">
-                <label for = "lunch"> Ate Lunch </label>
-                <input type = "checkbox" id = "lunch" name = "lunch" value = "Lunch">
-                <label for = "dinner"> Ate Dinner </label>
-                <input type = "checkbox" id = "dinner" name = "dinner" value = "Dinner">
-
-                <br>
-                <br>
-
-                <label for = "comments"> Comments?</label>
-                <textarea id = "comments" name = "comments">Say anything you want-</textarea>
-
-                <br>
-                <br>
-                <button type = "submit" id = "submitbut" name = "submitbut">Submit </button>
-            
-            </form>
         </section>
 
         <br>
