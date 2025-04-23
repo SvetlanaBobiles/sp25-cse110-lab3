@@ -58,3 +58,29 @@ body{
     text-align: center;
 }
 
+/* Container styling */
+#etc {
+    background-color: color-mix(in srgb, cornflowerblue 60%, white 40%);
+    padding: 20px;
+    border-style:dashed;
+    border-radius: 12px;
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+/* Style each <details> box */
+#etc details {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid color(srgb 0 0 0.55);
+    border-radius: 8px;
+    background-color: #c1d6f7;
+}
+
+#etc summary {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: black;
+}
+
