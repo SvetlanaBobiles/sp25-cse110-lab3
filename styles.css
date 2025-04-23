@@ -54,7 +54,7 @@ body{
     display: inline-block;
     width: 15%;
     padding: 20px;
-    background-color: color-mix(in srgb, cornflowerblue 60%, white 40%);
+    background-color: color-mix(in srgb, cornflowerblue 60%, white);
     
     border-radius: 10px;
     text-align: center;
@@ -62,7 +62,7 @@ body{
 
 /*Comments/quesitons/concerns*/
 #etc {
-    background-color: color-mix(in srgb, cornflowerblue 60%, white 40%);
+    background-color: color-mix(in srgb, cornflowerblue 60%, white);
     padding: 20px 40px 20px 40px;
     border-style:dashed;
     border-radius: 12px;
@@ -76,7 +76,6 @@ body{
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    border: 1px solid color(srgb 0 0 0.55);
     border-radius: 8px;
     background-color: #c1d6f7;
 }
